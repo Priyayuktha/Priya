@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+
+body {
+  background-color: #efefef;
+  color: #000;
+  font-size: 100%;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 400;
+}
+.clearfix{clear: left;}
+.twelvecol{width:100%;}
+li{list-style: none;}
+form {
+  border-top: 5px solid #01caa7;
+  width: 552px;
+  margin: 40px auto;
+}
+
+fieldset {
+  margin: auto;
+  width: 470px;
+  height: auto;
+  border: 1px solid #e5e5e5;
+  border-top: 0px solid #e5e5e5;
+  background: #fdfdfd;
+  padding: 2em;
+}
+
+form ul {
+  padding: 0;
+}
+
+form label {
+  float: left;
+  width: 200px;
+  font-size: 1em;
+  color: #111;
+}
+
+form label.mid {
+  line-height: 40px;
+}
+
+form input, form select {
+ background: #01caa7;
+	border: 2px solid #fff;
+	color: #fff;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	width: 240px;
+ vertical-align: middle;
+}
+
+form input:hover, form select:hover{
+	border: 2px solid #2b7b5c;
+}
+
+form input:focus, form select:focus{
+  border-color: #2b7b5c;
+  outline: none;
+}
+
+form select {
+  float: left;
+  margin-bottom: 40px;
+  appearance: none;
+  width: 260px;
+  border-radius: 0;
+}
+
+form input.checkbox{
+  margin: 0;
+  padding: 2px 0;
+  width: auto;
+  height: auto;
+}
+.big-button {
+    font-size: 30px; /* Adjust font size for larger text */
+}
+
+
+
